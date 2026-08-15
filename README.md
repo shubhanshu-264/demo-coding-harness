@@ -14,3 +14,11 @@ harness runs them all and reports which passed.
 ```
 npm test
 ```
+
+## Running an exercise from the CLI
+
+```
+node bin/cli.js exercises/fizzbuzz.js
+```
+
+Prints a pass/fail summary and exits non-zero if any case fails.
