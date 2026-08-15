@@ -4,7 +4,9 @@
   "description": "A minimal harness for running coding exercises against test cases",
   "type": "module",
   "scripts": {
-    "test": "node --test"
+    "test": "node --test test/",
+    "test:e2e": "node --test e2e/",
+    "test:all": "npm test && npm run test:e2e"
   },
   "license": "MIT",
   "author": "Shubhanshu"
