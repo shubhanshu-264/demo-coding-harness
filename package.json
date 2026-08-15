@@ -1,0 +1,11 @@
+{
+  "name": "demo-coding-harness",
+  "version": "0.1.0",
+  "description": "A minimal harness for running coding exercises against test cases",
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "author": "Shubhanshu"
+}
